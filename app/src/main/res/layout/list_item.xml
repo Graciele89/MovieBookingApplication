@@ -8,11 +8,10 @@
     android:orientation="vertical"
     android:layout_margin="10dp">
 
-
     <ImageView
         android:id="@+id/movieImage"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:scaleType="centerCrop"
         android:adjustViewBounds="true"
         android:src="@drawable/ambulance_at_vue_friday"/>
@@ -21,31 +20,101 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:orientation="vertical"
+        android:padding="4dp"
         android:id="@+id/layoutPai">
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
-
+            android:orientation="horizontal"
+            android:padding="5dp">
 
             <TextView
                 android:id="@+id/movieTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="MovieTitle" />
+                android:text="title"/>
+
+            <TextView
+                android:id="@+id/certification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="certification"/>
+
+            <TextView
+                android:id="@+id/runningTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="runningTime" />
+
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="description"/>
+            <TextView
+                android:id="@+id/starring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="starring"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageButton
+            android:id="@+id/seatsRemaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+                android:layout_margin="15dp"
+            android:src="@drawable/cinema_seats"
+            android:text="seatsR"
+                android:background="@color/teal_200"/>
+
+            <ImageButton
+            android:id="@+id/seatsSelected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+                android:layout_margin="15dp"
+            android:src="@drawable/cinema_seats"
+                android:background="@color/teal_700"
+            android:text="seatsS" />
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:backgroundTint="@color/black"/>-->
+
+<!--    </LinearLayout>-->
+
     </LinearLayout>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_margin="8dp"
-        app:layout_constraintStart_toStartOf="parent"
-        android:background="@color/purple_500"/>
-
-
 </LinearLayout>
+
+
+

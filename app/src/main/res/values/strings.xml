@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Movie Booking Application</string>
+
+    <string name="descrip_ambulance">Over one day across the streets of L.A., three lives will change forever.</string>
+    <string name="descrip_batman">From Warner Bros. Pictures comes The Batman, with director Matt Reeves at the helm and with Robert Pattinson starring as Gotham Citys vigilante detective, Batman.</string>
+    <string name="descrip_badGuys">In the new action comedy from DreamWorks Animation, based on the New York Times best-selling book series, a crackerjack criminal crew of animal outlaws are about to attempt their most challenging con yet - becoming model citizens.</string>
+    <string name="descrip_worstPerson">The Worst Person In The World revolves around Julie, a vibrant and impulsive young woman who, on the verge of turning thirty, is faced with a series of drastic choices that force her to continually reinvent and pursue new perspectives on her life.</string>
+    <string name="descrip_uncharted">Street-smart Nathan Drake (Tom Holland) is recruited by seasoned treasure hunter Victor Sully Sullivan (Mark Wahlberg) to recover a fortune amassed by Ferdinand Magellan and lost 500 years ago by the House of Moncada.</string>
+
+
 </resources>
+
